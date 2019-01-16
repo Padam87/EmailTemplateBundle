@@ -1,0 +1,28 @@
+{
+  "name": "padam87/email-template-bundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "description": "Email template framework for Symfony.",
+  "keywords": [
+    "symfony",
+    "email",
+    "template"
+  ],
+  "authors": [
+    {
+      "name": "Adam Prager",
+      "email": "prager.adam87@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"Padam87\\EmailTemplateBundle\\": ""}
+  },
+  "require": {
+    "php": "^7.1",
+    "symfony/config": "^4.0",
+    "symfony/dependency-injection": "^4.0",
+    "twig/twig": "^2.0"
+  },
+  "suggest": {
+  }
+}

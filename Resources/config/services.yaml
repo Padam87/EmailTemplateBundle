@@ -1,0 +1,6 @@
+services:
+  Padam87\EmailTemplateBundle\Loader\TwigLoader:
+    arguments: ['@twig']
+    public: true
+
+  Padam87\EmailTemplateBundle\Loader\LoaderInterface: '@Padam87\EmailTemplateBundle\Loader\TwigLoader'
